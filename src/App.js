@@ -1,6 +1,7 @@
 
 import ContectDisplay from './components/Displays/contentDisplay/ContectDisplay';
 import InfoDisplay from './components/Displays/infoDisplay/InfoDisplay';
+import { BrowserRouter } from "react-router-dom";
 import './App.css';
 
 function App() {
@@ -9,7 +10,10 @@ function App() {
     {/* <div >Siddhant Gupta Web</div> */}
     <div className='display'>
       <ContectDisplay />
-      <InfoDisplay />
+      <BrowserRouter>
+          <InfoDisplay />
+      </BrowserRouter>
+  
     </div>
     </div>
   );

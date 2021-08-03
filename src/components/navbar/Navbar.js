@@ -1,11 +1,11 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import styles from './Navbar.module.css'
 const Navabar = () => { 
     const [isActive, setActive] = useState("false");
     const handleToggle = () => {
         setActive(!isActive);
       };
-      console.log(isActive);
   return (
       <div>
           <header >
@@ -13,11 +13,11 @@ const Navabar = () => {
               <div className={`${styles.toggle} ${!isActive ? styles.active: ''}`} onClick={handleToggle}></div>
               <div  className={styles.navbar}>
                 <ul>
-                    <li> About   </li>
-                    <li>  Project  </li>
-                    <li>  Education  </li>
-                    <li>   Contact </li>
-
+                    <li> <Link to='/about'>About</Link>   </li>
+                    <li> <Link to='/project'>Project</Link>   </li>
+                    <li> <Link to='/education'>Education</Link>   </li>
+                    <li> <Link to='/contact'> Contact </Link> </li>
+                   
                 </ul>
               </div>
           </header>

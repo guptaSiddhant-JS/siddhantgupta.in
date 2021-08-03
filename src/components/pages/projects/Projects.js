@@ -3,7 +3,7 @@ import styles from './Projects.module.css'
 const Projects = () =>{
   return (
       <div className={styles.container}>
-          Display 1
+        Project
       </div>
   );
 }
