@@ -11,7 +11,7 @@ const Navabar = () => {
           <header >
               <div>Siddhant Gupta</div>
               <div className={`${styles.toggle} ${!isActive ? styles.active: ''}`} onClick={handleToggle}></div>
-              <div  className={styles.navbar}>
+              <div  className={`${styles.navbar} ${!isActive ? styles.active: ''}`}>
                 <ul>
                     <li> <Link to='/about'>About</Link>   </li>
                     <li> <Link to='/project'>Project</Link>   </li>
