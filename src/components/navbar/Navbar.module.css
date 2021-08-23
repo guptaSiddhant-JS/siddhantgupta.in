@@ -1,5 +1,5 @@
 * {
-    margin: 0;
+    margin:  5% 15% 0 0;
     padding: 0;
     box-sizing: border-box;
 }
@@ -8,9 +8,9 @@ header {
     top: 0%;
     right: 0%;
     display: flex;
-    justify-content: space-between;
-    width: 65%;
-    background-color: seashell;
+    justify-content: flex-end;
+    /* width: 65%; */
+    background-color: red;
     box-shadow: 0 5px 25px rgba(0,0,0,0.05);
 }
 .toggle{
@@ -53,7 +53,7 @@ header {
 }
 .navbar {
     position: relative;
-    height: 60px;
+    height: 90px;
     right: 60px;
     background: #fff;
     transition:0.5s; 
@@ -61,21 +61,22 @@ header {
     overflow: hidden;
 }
 .navbar.active{
-    width: 500px;
+    width: 630px;
 }
 .navbar ul {
     position: relative;
     display: flex;
     flex-direction: row;
 }
-.navbar ul li  {
+.navbar ul li {
     list-style: none;
     color: #12334e;
-    height: 60px;
+    /* height: 60x; */
+    top:0%;
     line-height: 60px;
     display: inline-block;
     text-decoration: none;
     font-size: 1.2rem;
-    padding: 0 15px;
+    /* padding: 0 15px; */
     letter-spacing: 2px;
 }
