@@ -1,4 +1,6 @@
-
+body{
+  background-color: #F5F5F5;
+}
 .display{
   display: flex;
   margin: 20px 10% 0 10%;
