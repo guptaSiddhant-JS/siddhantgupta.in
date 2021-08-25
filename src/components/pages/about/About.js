@@ -1,11 +1,12 @@
 
 import React from 'react';
 import styles from './About.module.css'
+import Card from '../../Card/Card'
 const About = () =>{
   return (
-      <div className={styles.container}>
+      <Card className={styles.container}>
           About
-      </div>
+      </Card>
   );
 }
 export default About;
