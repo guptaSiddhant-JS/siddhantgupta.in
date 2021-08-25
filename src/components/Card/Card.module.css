@@ -1,0 +1,14 @@
+.container{
+   
+    position: relative;
+    width: 400px;
+    height:400px;
+}
+.card{
+    position: absolute;
+    top: -20px;
+    right: -60px;
+    width: 350px;
+    height:100%;
+  
+}
