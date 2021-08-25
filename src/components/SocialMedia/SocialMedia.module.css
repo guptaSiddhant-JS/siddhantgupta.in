@@ -1,0 +1,67 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul{
+    position: relative;
+    display: flex;
+}
+ul li {
+    position: relative;
+    list-style: none;
+    margin:2px;
+}
+ul li a{
+    position: relative;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+    margin-left: 20px;
+    /* margin:0 100px; */
+    padding: 20px;
+    text-decoration: none;
+    font-size: 15px;
+    border-radius:50%;
+    color: #e2e2e2;
+    box-shadow:inset -1px -1px 2px rgba(0,0,0,0.2),
+                      2px 2px 5px rgba(0,0,0,0.2);
+    transition: 0.5;                  
+                       
+}
+ul li a:hover{
+    color: #999;
+    transform: translateY(-20px);
+    box-shadow:inset -1px -1px 2px rgba(0,0,0,0.2),
+                      2px 24px 10px rgba(0,0,0,0.1);
+}
+
+ul li a:before{
+  content: '';
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  right: 5px;
+  bottom: 5px;
+  border-radius: 50%;
+  border:.8px solid rgba(0,0,0,0.1);
+}
+ul li a .icons{
+    position: relative;
+    z-index: 1;
+    margin-left: 2px;
+    color:white;
+    justify-content: center;
+}
+ul li:nth-child(1) a:before{
+    background: blue;
+}
+ul li:nth-child(2) a:before{
+    background: red;
+}
+ul li:nth-child(3) a:before{
+    background-color: purple;
+}
