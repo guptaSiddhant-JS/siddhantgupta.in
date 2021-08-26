@@ -7,7 +7,7 @@ const Navabar = () => {
         setActive(!isActive);
       };
   return (
-      <div>
+      <div className={styles.nav__container}>
           <header >
             
               <div className={`${styles.toggle} ${!isActive ? styles.active: ''}`} onClick={handleToggle}></div>
