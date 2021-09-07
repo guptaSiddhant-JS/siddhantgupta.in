@@ -10,12 +10,12 @@
 .sm__container ul li {
     position: relative;
     list-style: none;
-    margin:2px;
+    margin:10px;
 }
 .sm__container ul li a{
     position: relative;
-    width: 60px;
-    height: 60px;
+    width: 15px;
+    height: 15px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -47,7 +47,7 @@
   right: 5px;
   bottom: 5px;
   border-radius: 50%;
-  border:.8px solid rgba(0,0,0,0.1);
+  border:.2px solid rgba(0,0,0,0.1);
 }
 .sm__container ul li a .icons{
     position: relative;
